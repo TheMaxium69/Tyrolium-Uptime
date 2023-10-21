@@ -70,7 +70,7 @@
       "alias": "ovh-serv",
       "description": "Serveur de SolidServ V1",
       "lieu": "Strasbourg - France \uD83C\uDDEB\uD83C\uDDF7",
-      "url": "serv301.tyrolium.fr",
+      "url": "serv302.tyrolium.fr",
       "tag": "SolidServ",
       "group": "serv",
       "date":"22/04/2022"
@@ -130,7 +130,7 @@
       "alias": "",
       "description": "Proxy de redirection en cas de panne de serveur (Pour Tyrolium et TyroServ)",
       "lieu": "Strasbourg - France \uD83C\uDDEB\uD83C\uDDF7",
-      "url": "",
+      "url": "vps201.tyrolium.fr",
       "tag": "Tyrolium",
       "group": "proxy",
       "date":"04/02/2020"
@@ -245,8 +245,17 @@
 
   "domaine": [
     {"name": "tyrolium.fr", "createDate": "18/01/2020"},
-    {"name": "solidserv.fr", "createDate": "5"},
-    {"name": "solidserv.xyz", "createDate": "5"}
+    {"name": "tyroserv.fr", "createDate": "19/05/2021"},
+    {"name": "wonderlium.yt", "createDate": "19/05/2020"},
+    {"name": "selemusium.xyz", "createDate": "22/11/2021"},
+    {"name": "tyromail.fr", "createDate": "03/02/2022"},
+    {"name": "solidserv.fr", "createDate": "23/04/2022"},
+    {"name": "solidserv.xyz", "createDate": "09/04/2022"},
+    {"name": "tyrodiscord.xyz", "createDate": "30/04/2022"},
+    {"name": "useritium.fr", "createDate": "05/06/2022"},
+    {"name": "gamenium.fr", "createDate": "06/06/2022"},
+    {"name": "influnias.fr", "createDate": "19/10/2022"},
+    {"name": "maximetournier.fr", "createDate": "15/08/2023"}
 
   ]
 

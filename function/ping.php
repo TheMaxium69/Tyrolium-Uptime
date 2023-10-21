@@ -1,8 +1,27 @@
 <?php
 
-function pingHost($host) {
+//function pingHost($server) {
+//
+//    $host = $server['url'];
+//
+//    $output = shell_exec("ping " . escapeshellarg($host));
+//
+//    echo "<pre>$output</pre>";
+//}
 
-    $output = shell_exec("ping " . escapeshellarg($host));
+function pingHost($server) {
 
-    echo "<pre>$output</pre>";
+    $name = $server['name'];
+    $host = $server['url'];
+
+    if ($name == "vps202" || $host == "vps203.tyrolium.fr" || $name == "serv301" || $name == "int802"){
+
+        return "offline";
+
+    } else {
+
+        return "online";
+
+    }
+
 }

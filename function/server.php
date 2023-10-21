@@ -23,10 +23,7 @@ function showServersByGroup($servers, $group){
 
         if ($group['prefix'] == $server['group']){
 
-
-
-//            $status = pingHost($server['url']);
-            $status = "online";
+            $status = pingHost($server);
 
             OneByServer($server, $status);
 
