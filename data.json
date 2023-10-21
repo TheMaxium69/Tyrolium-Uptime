@@ -4,7 +4,7 @@
     {
       "name":"vps201",
       "alias": "",
-      "description": "Serveur de Test pour TyroServ et les bots discord",
+      "description": "Serveur pour TyroServ S1 & S3 et les bots discord",
       "lieu": "Gravelines - France \uD83C\uDDEB\uD83C\uDDF7",
       "url": "vps201.tyrolium.fr",
       "tag": "TyroServ",
@@ -15,7 +15,7 @@
     {
       "name":"vps202",
       "alias": "",
-      "description": "",
+      "description": "Serveur de Test",
       "lieu": "Gravelines - France \uD83C\uDDEB\uD83C\uDDF7",
       "url": "vps202.tyrolium.fr",
       "tag": "",
@@ -37,23 +37,23 @@
     {
       "name":"vps204",
       "alias": "tyroserv-vps",
-      "description": "",
-      "lieu": "?? - France \uD83C\uDDEB\uD83C\uDDF7",
+      "description": "Serveur Officiel de la S2.5 de TyroServ",
+      "lieu": "Strasbourg - France \uD83C\uDDEB\uD83C\uDDF7",
       "url": "vps204.tyrolium.fr",
       "tag": "TyroServ",
       "group": "vps",
-      "date":"10/10/10"
+      "date":"16/05/2023"
     },
 
     {
       "name":"vps205",
       "alias": "",
-      "description": "",
-      "lieu": "?? - France \uD83C\uDDEB\uD83C\uDDF7",
+      "description": "Serveur de SolidServ V2",
+      "lieu": "Gravelines - France \uD83C\uDDEB\uD83C\uDDF7",
       "url": "vps204.tyrolium.fr",
       "tag": "SolidServ",
       "group": "vps",
-      "date":"??"
+      "date":"16/05/2023"
     },
 
     {
@@ -99,7 +99,7 @@
       "url": "tyrolium.fr",
       "tag": "Tyrolium",
       "group": "cloud",
-      "date":"??"
+      "date":"18/01/2020"
     },
 
     {
@@ -110,17 +110,13 @@
       "url": "cloud102.tyrolium.fr",
       "tag": "Tyrolium",
       "group": "cloud",
-      "date":"??"
+      "date":"06/06/2022"
     },
-
-
-
-
 
     {
       "name":"proxy601",
       "alias": "",
-      "description": "",
+      "description": "Proxy de redirection en cas de panne de serveur (Pour Tyrolium et TyroServ)",
       "lieu": "Strasbourg - France \uD83C\uDDEB\uD83C\uDDF7",
       "url": "",
       "tag": "Tyrolium",
@@ -131,9 +127,9 @@
     {
       "name":"vpn401",
       "alias": "",
-      "description": "",
+      "description": "VPN de sécurité pour les projet interne de Tyrolium",
       "lieu": "Gravelines - France \uD83C\uDDEB\uD83C\uDDF7",
-      "url": "",
+      "url": "vps201.tyrolium.fr",
       "tag": "Tyrolium",
       "group": "vpn",
       "date":"??"
@@ -141,9 +137,9 @@
     {
       "name":"vpn402",
       "alias": "",
-      "description": "",
+      "description": "VPN situer au Japon",
       "lieu": "Tokyo - Japon \uD83C\uDDEF\uD83C\uDDF5",
-      "url": "",
+      "url": "vps203.tyrolium.fr",
       "tag": "",
       "group": "vpn",
       "date":"??"
@@ -151,31 +147,94 @@
     {
       "name":"vpn403",
       "alias": "",
-      "description": "",
+      "description": "VPN situer au Japon",
       "lieu": "Tokyo - Japon \uD83C\uDDEF\uD83C\uDDF5",
-      "url": "",
+      "url": "vps203.tyrolium.fr",
       "tag": "",
       "group": "vpn",
       "date":"??"
+    },
+
+    {
+      "name":"database701",
+      "alias": "",
+      "description": "Base de donné lier à Tyrolium.fr et Sélémusium.xyz",
+      "lieu": "Gravelines - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "cloud101.tyrolium.fr",
+      "tag": "Tyrolium",
+      "group": "db",
+      "date":"18/01/2020"
+    },
+
+    {
+      "name":"database702",
+      "alias": "",
+      "description": "Base de donné lier au bot discord",
+      "lieu": "Gravelines - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps201.tyrolium.fr",
+      "tag": "Tyrolium",
+      "group": "db",
+      "date":"??"
+    },
+
+    {
+      "name":"database703",
+      "alias": "",
+      "description": "Base de donné lier a TyroServ (Log)",
+      "lieu": "Gravelines - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps204.tyrolium.fr",
+      "tag": "TyroServ",
+      "group": "db",
+      "date":"16/05/2023"
+    },
+
+    {
+      "name":"database704",
+      "alias": "",
+      "description": "Base de donné lier a TyroServ (User)",
+      "lieu": "Gravelines - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps204.tyrolium.fr",
+      "tag": "TyroServ",
+      "group": "db",
+      "date":"16/05/2023"
+    },
+    {
+      "name":"database705",
+      "alias": "",
+      "description": "Base de donné lier a Useritium",
+      "lieu": "Gravelines - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "cloud102.tyrolium.fr",
+      "tag": "Tyrolium",
+      "group": "db",
+      "date":"06/06/2022"
+    },
+
+    {
+      "name":"database706",
+      "alias": "",
+      "description": "Base de donné lier a SolidServ",
+      "lieu": "Gravelines - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps205.tyrolium.fr",
+      "tag": "SolidServ",
+      "group": "db",
+      "date":"22/10/2023"
     }
-
-
   ],
 
   "group": [
     {"name": "VPS","prefix": "vps","description":"Il s'agit des vps qui son héberger dans un data center"},
     {"name": "Serveur dédier","prefix": "serv","description":"Il s'agit des serveur dédier qui son héberger dans un data center"},
-    {"name": "Interne","prefix": "int","description": "Il s'agit des serveur Interne, Il son physiquement dans les locaux de Tyrolium"},
-    {"name": "Cloud","prefix": "cloud","description":"Il s'agit des clouds qui son héberger dans un data center"},
-    {"name": "DataBase","prefix": "db","description":"Il s'agit des serveur utilisé pour faire des bases de donnée"},
-    {"name": "Proxy","prefix": "proxy","description":"Il s'agit des proxy qui son héberger dans un data center"},
+    {"name": "Serveur Interne","prefix": "int","description": "Il s'agit des serveur, qui son héberger dans les locaux de Tyrolium"},
+    {"name": "Cloud","prefix": "cloud","description":"Il s'agit des serveur conçu pour héberger seulement des site web"},
+    {"name": "DataBase","prefix": "db","description":"Il s'agit des serveur conçu pour héberger seulement des bases de donnée"},
+    {"name": "Proxy","prefix": "proxy","description":"Il s'agit des serveurs proxys qui permette de redirigé le trafic vers les backup"},
     {"name": "VPN","prefix": "vpn","description":"Il s'agit des serveur utilisé pour faire des vpns, souvent utilisé pour notre sécurité"}
   ],
 
   "domaine": [
-    {"name": "tyrolium.fr", "subdomaine": "10"},
-    {"name": "solidserv.fr", "subdomaine": "5"},
-    {"name": "solidserv.xyz", "subdomaine": "5"}
+    {"name": "tyrolium.fr", "createDate": "18/01/2020"},
+    {"name": "solidserv.fr", "createDate": "5"},
+    {"name": "solidserv.xyz", "createDate": "5"}
 
   ]
 

@@ -2,11 +2,11 @@
 
 function showDomaine($domaines){
 
-    require_once "./composant/domaine.phtml";
+    showGroupDomaine();
 
     echo '
-<div class="card" style="width: 18rem;">
-    <ul class="list-group list-group-flush">
+<div>
+    <ul class="domaine-list list-group list-group-flush">
 ';
 
 

@@ -1,1 +1,57 @@
-<li class="list-group-item"><?= $domaine['name'] ?> | Nombre de redirection <?= $domaine['subdomaine'] ?></li>
+<li class="list-domaine-item row justify-content-center">
+
+    <div>
+        <p style="margin: unset!important;"><i class="fa-solid fa-globe" style="margin-right: 5px; color: #4170a3"></i> <?= $domaine['name'] ?></p>
+    </div>
+    <div>
+        Date de création : <?= $domaine['createDate'] ?>
+    </div>
+
+</li>
+
+
+<style>
+
+    ul.domaine-list{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    ul.domaine-list .list-domaine-item{
+
+        border-bottom: solid #797979!important;
+        margin: 10px;
+        background-color: #303030;
+        padding: 18px;
+
+        transition: transform 0.2s ease-out;
+        will-change: transform;
+    }
+
+    ul.domaine-list .list-domaine-item:hover{
+
+
+        transform: scale(1.05);
+
+    }
+
+    ul.domaine-list .list-domaine-item div{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 50%;
+    }
+    ul.domaine-list .list-domaine-item div:first-child{
+        text-align: left;
+    }
+
+    ul.domaine-list .list-domaine-item div:last-child{
+        text-align: right;
+    }
+
+
+
+
+</style>
+

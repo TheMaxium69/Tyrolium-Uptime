@@ -1,2 +1,19 @@
-<h3> -------------> <?= $group['name'] ?></h3>
-<small><?= $group['description'] ?></small>
+<div id="group-text">
+    <h3> <?= $group['name'] ?></h3>
+    <small><?= $group['description'] ?></small>
+</div>
+
+<style>
+    #group-text{
+        text-align: center;
+        margin: 50px;
+    }
+
+    .group-hr{
+        margin-top: 25px;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+</style>

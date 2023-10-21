@@ -2,10 +2,10 @@
 
     <div class="container-Icone">
 
-        <?php if ($status == "online") {
-            echo ' <p class="overlay-status-Icone d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-success-subtle border border-success-subtle rounded-2"> En ligne </p>';
+        <?php if ($status == "onl2ine") {
+            echo ' <p class="overlay-status-Icone d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-success-subtle border border-success-subtle rounded-2"><i class="fa-solid fa-signal" style="margin-top: 4px;margin-right: 5px;"></i> En ligne </p>';
         } else {
-            echo '<p class="overlay-status-Icone d-inline-flex mb-3 px-2 py-1 fw-semibold text-danger-emphasis bg-danger-subtle border border-danger-subtle rounded-2"> Hors ligne </p>';
+            echo '<p class="overlay-status-Icone d-inline-flex mb-3 px-2 py-1 fw-semibold text-danger-emphasis bg-danger-subtle border border-danger-subtle rounded-2"><i class="fa-solid fa-power-off" style="margin-top: 4px;margin-right: 5px;"></i> Hors ligne </p>';
         } ?>
 
         <img class="main-image-Icone card-img-top" src="assets/<?= $server['group'] ?>.png" alt="Image Group"
@@ -14,25 +14,21 @@
     <div class="card-body">
         <div class="card-name-display">
             <h5 class="card-title"><?= $server['name'] ?></h5>
-            <small>alias : <?= $server['alias'] ?></small>
+            <?php if ($server['alias']){ ?><small>alias : <?= $server['alias'] ?></small><?php } ?>
         </div>
 
-        <p class="card-text">
-            Lieu : <br>
-            <?= $server['lieu'] ?>
+        <p class="card-text" style="margin-bottom: unset">
+            <i class="fa-solid fa-location-dot"></i> Lieu : <br>
+            <p style="text-align: center"><?= $server['lieu'] ?></p>
         </p>
-        <p class="card-text">
-            Date de mise en service : <br>
-            <?= $server['date'] ?>
-        </p>
-
-        <p class="card-text">
-            Description : <br>
-            <?= $server['description'] ?>
+        <p class="card-text" style="margin-bottom: unset">
+            <i class="fa-solid fa-calendar"></i> Date de mise en service : <br>
+            <p style="text-align: center"><?= $server['date'] ?></p>
         </p>
 
-        <p class="card-text">
-            <?= $server['tag'] ?>
+        <p class="card-text" style="margin-bottom: unset">
+            <i class="fa-solid fa-comment"></i> Description : <br>
+            <small>&ensp;&ensp;<?= $server['description'] ?></small>
         </p>
 
         <a href="http://<?= $server['url'] ?>" class="btn btn-primary btn-server">Host Link</a>
@@ -42,14 +38,23 @@
 
 
 <style>
+    txC{
+        text-align: center;
+    }
+    .card-body i{
+        margin-right: 5px;
+        color: #42658d;
+    }
+
     .card-name-display{
-        margin-bottom: 20px;
+        margin-bottom: 12px;
     }
 
     .btn-server{
         position: absolute;
         bottom: 12px;
         left: 12px;
+        width: 91%;
     }
 
     .card-serv{
@@ -59,7 +64,7 @@
             flex-direction: column;
             position: relative;
             width: 290px;
-            height: 600px;
+            height: 550px;
             box-shadow: -1px 15px 30px -12px rgb(32, 32, 32);
             border-radius: 0.9rem;
 
@@ -95,6 +100,7 @@
     .overlay-status-Icone {
         position: absolute;
         top: -6px;
-        right: 43px;
+        right: 36px;
+        transform: scale(0.9);
     }
 </style>

@@ -11,17 +11,7 @@ $servers = $data['serv'];
 $groups = $data['group'];
 $domaines = $data['domaine'];
 
-//Structure
-echo "<header>";
-require_once "./composant/navbar.phtml";
-require_once "./composant/header.phtml";
-echo "</header><main>";
-
+// Content
 showGroup($groups, $servers);
 
 showDomaine($domaines);
-
-
-echo "</main><footer>";
-require_once "./composant/footer.phtml";
-echo "</footer>";

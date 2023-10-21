@@ -5,8 +5,7 @@
 </head>
 <body>
 
-    <?php require_once "app/app.php"; ?>
-
+    <?php require_once "app/outlet.php"; ?>
 
 </body>
 </html>
