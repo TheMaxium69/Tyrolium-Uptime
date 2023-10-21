@@ -17,9 +17,9 @@ require_once "./composant/navbar.phtml";
 require_once "./composant/header.phtml";
 echo "</header><main>";
 
+showGroup($groups, $servers);
 
-showServersByGroup($servers, $groups['0']);
-
+showDomaine($domaines);
 
 
 echo "</main><footer>";

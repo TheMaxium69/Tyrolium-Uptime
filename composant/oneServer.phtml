@@ -1,8 +1,100 @@
-<div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
+<div class="card-serv">
+
+    <div class="container-Icone">
+
+        <?php if ($status == "online") {
+            echo ' <p class="overlay-status-Icone d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-success-subtle border border-success-subtle rounded-2"> En ligne </p>';
+        } else {
+            echo '<p class="overlay-status-Icone d-inline-flex mb-3 px-2 py-1 fw-semibold text-danger-emphasis bg-danger-subtle border border-danger-subtle rounded-2"> Hors ligne </p>';
+        } ?>
+
+        <img class="main-image-Icone card-img-top" src="assets/<?= $server['group'] ?>.png" alt="Image Group"
+        <?php if ($server['tag']){ echo '><img class="overlay-image-Icone" src="assets/projet/'. $server['tag'] .'.png" alt="Image Projet">';} else { echo 'style="margin-left: 12px;">'; } ?>
+    </div>
     <div class="card-body">
-        <h5 class="card-title"><?= $server['name'] ?>.tyrolium.fr</h5>
-        <p class="card-text"><?= $server['group'] ?></p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="card-name-display">
+            <h5 class="card-title"><?= $server['name'] ?></h5>
+            <small>alias : <?= $server['alias'] ?></small>
+        </div>
+
+        <p class="card-text">
+            Lieu : <br>
+            <?= $server['lieu'] ?>
+        </p>
+        <p class="card-text">
+            Date de mise en service : <br>
+            <?= $server['date'] ?>
+        </p>
+
+        <p class="card-text">
+            Description : <br>
+            <?= $server['description'] ?>
+        </p>
+
+        <p class="card-text">
+            <?= $server['tag'] ?>
+        </p>
+
+        <a href="http://<?= $server['url'] ?>" class="btn btn-primary btn-server">Host Link</a>
     </div>
 </div>
+
+
+
+<style>
+    .card-name-display{
+        margin-bottom: 20px;
+    }
+
+    .btn-server{
+        position: absolute;
+        bottom: 12px;
+        left: 12px;
+    }
+
+    .card-serv{
+        background-color: #303030;
+        padding: 20px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            width: 290px;
+            height: 600px;
+            box-shadow: -1px 15px 30px -12px rgb(32, 32, 32);
+            border-radius: 0.9rem;
+
+            cursor: pointer;
+            margin: 20px 20px 20px 10px;
+            transition: transform 0.2s ease-out;
+            will-change: transform;
+
+    }
+
+    .card-serv:hover{
+        transform: scale(1.05);
+    }
+
+    .container-Icone {
+        position: relative;
+        width: 300px; /* Ajustez la largeur selon vos besoins */
+        height: 225px; /* Ajustez la hauteur selon vos besoins */
+    }
+
+    .main-image-Icone {
+        width: 225px;
+        height: 225px;
+        object-fit: cover; /* Ajuste la taille de l'image pour remplir la div */
+    }
+
+    .overlay-image-Icone {
+        position: absolute;
+        bottom: 10px;
+        right: 49px;
+        width: 72px;
+    }
+    .overlay-status-Icone {
+        position: absolute;
+        top: -6px;
+        right: 43px;
+    }
+</style>

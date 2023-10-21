@@ -1,40 +1,181 @@
 {
   "serv": [
+
     {
-      "name":"int801",
-      "alias": "server-dell",
-      "description": "Serveur de Test Interne à Tyrolium",
-      "url": "int801.tyrolium.fr",
-      "tag": "Tyrolium",
-      "group": "int",
-      "date":"10/10/10"
+      "name":"vps201",
+      "alias": "",
+      "description": "Serveur de Test pour TyroServ et les bots discord",
+      "lieu": "Gravelines - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps201.tyrolium.fr",
+      "tag": "TyroServ",
+      "group": "vps",
+      "date":"??"
+    },
+
+    {
+      "name":"vps202",
+      "alias": "",
+      "description": "",
+      "lieu": "Gravelines - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps202.tyrolium.fr",
+      "tag": "",
+      "group": "vps",
+      "date":"??"
+    },
+
+    {
+      "name":"vps203",
+      "alias": "",
+      "description": "VPS utilisé pour la création de VPN",
+      "lieu": "Tokyo - Japon \uD83C\uDDEF\uD83C\uDDF5",
+      "url": "vps203.tyrolium.fr",
+      "tag": "",
+      "group": "vps",
+      "date":"??"
     },
 
     {
       "name":"vps204",
       "alias": "tyroserv-vps",
       "description": "",
+      "lieu": "?? - France \uD83C\uDDEB\uD83C\uDDF7",
       "url": "vps204.tyrolium.fr",
       "tag": "TyroServ",
       "group": "vps",
       "date":"10/10/10"
+    },
+
+    {
+      "name":"vps205",
+      "alias": "",
+      "description": "",
+      "lieu": "?? - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps204.tyrolium.fr",
+      "tag": "SolidServ",
+      "group": "vps",
+      "date":"??"
+    },
+
+    {
+      "name":"serv301",
+      "alias": "ionos-serv",
+      "description": "Serveur de Test Interne à SolidServ",
+      "lieu": "Frankfurt am Main - Allemagne \uD83C\uDDE9\uD83C\uDDEA",
+      "url": "serv301.tyrolium.fr",
+      "tag": "SolidServ",
+      "group": "serv",
+      "date":"??"
+    },{
+      "name":"serv302",
+      "alias": "ovh-serv",
+      "description": "Serveur de SolidServ V1",
+      "lieu": "Strasbourg - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "serv301.tyrolium.fr",
+      "tag": "SolidServ",
+      "group": "serv",
+      "date":"??"
+    },
+
+
+
+    {
+      "name":"int801",
+      "alias": "server-dell",
+      "description": "Serveur de Test Interne à Tyrolium",
+      "lieu": "Lyon - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "int801.tyrolium.fr",
+      "tag": "Tyrolium",
+      "group": "int",
+      "date":"10/10/10"
+    },
+
+
+
+    {
+      "name":"cloud101",
+      "alias": "",
+      "description": "Serveur pour le site officiel de Tyrolium",
+      "lieu": "Gravelines - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "tyrolium.fr",
+      "tag": "Tyrolium",
+      "group": "cloud",
+      "date":"??"
+    },
+
+    {
+      "name":"cloud102",
+      "alias": "",
+      "description": "Serveur pour les site projet de Tyrolium (Gamenium, Useritium, etc..)",
+      "lieu": "Gravelines - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "cloud102.tyrolium.fr",
+      "tag": "Tyrolium",
+      "group": "cloud",
+      "date":"??"
+    },
+
+
+
+
+
+    {
+      "name":"proxy601",
+      "alias": "",
+      "description": "",
+      "lieu": "Strasbourg - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "",
+      "tag": "Tyrolium",
+      "group": "proxy",
+      "date":"??"
+    },
+
+    {
+      "name":"vpn401",
+      "alias": "",
+      "description": "",
+      "lieu": "Gravelines - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "",
+      "tag": "Tyrolium",
+      "group": "vpn",
+      "date":"??"
+    },
+    {
+      "name":"vpn402",
+      "alias": "",
+      "description": "",
+      "lieu": "Tokyo - Japon \uD83C\uDDEF\uD83C\uDDF5",
+      "url": "",
+      "tag": "",
+      "group": "vpn",
+      "date":"??"
+    },
+    {
+      "name":"vpn403",
+      "alias": "",
+      "description": "",
+      "lieu": "Tokyo - Japon \uD83C\uDDEF\uD83C\uDDF5",
+      "url": "",
+      "tag": "",
+      "group": "vpn",
+      "date":"??"
     }
+
 
   ],
 
   "group": [
-    {"name": "Interne","prefix": "int","description": "Il s'agit des serveur Interne, Il son physiquement dans les locaux de Tyrolium"},
-    {"name": "Serveur dédier","prefix": "serv","description":"Il s'agit des serveur dédier qui son héberger dans un data center"},
     {"name": "VPS","prefix": "vps","description":"Il s'agit des vps qui son héberger dans un data center"},
+    {"name": "Serveur dédier","prefix": "serv","description":"Il s'agit des serveur dédier qui son héberger dans un data center"},
+    {"name": "Interne","prefix": "int","description": "Il s'agit des serveur Interne, Il son physiquement dans les locaux de Tyrolium"},
     {"name": "Cloud","prefix": "cloud","description":"Il s'agit des clouds qui son héberger dans un data center"},
+    {"name": "DataBase","prefix": "db","description":"Il s'agit des serveur utilisé pour faire des bases de donnée"},
     {"name": "Proxy","prefix": "proxy","description":"Il s'agit des proxy qui son héberger dans un data center"},
     {"name": "VPN","prefix": "vpn","description":"Il s'agit des serveur utilisé pour faire des vpns, souvent utilisé pour notre sécurité"}
   ],
 
   "domaine": [
-    {"name": "tyrolium.fr"},
-    {"name": "solidserv.fr"},
-    {"name": "solidserv.xyz"}
+    {"name": "tyrolium.fr", "subdomaine": "10"},
+    {"name": "solidserv.fr", "subdomaine": "5"},
+    {"name": "solidserv.xyz", "subdomaine": "5"}
 
   ]
 

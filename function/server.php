@@ -1,6 +1,6 @@
 <?php
 
-function OneByServer($server){
+function OneByServer($server, $status){
 
     require "./composant/oneServer.phtml";
 
@@ -17,15 +17,22 @@ function showServers($servers){
 
 function showServersByGroup($servers, $group){
 
-    var_dump($servers, $group);
+    echo '<div class="row justify-content-center px-5" style="margin-left: auto; margin-right: auto">';
 
     foreach ($servers as $server){
 
         if ($group['prefix'] == $server['group']){
 
-            OneByServer($server);
+
+
+//            $status = pingHost($server['url']);
+            $status = "online";
+
+            OneByServer($server, $status);
 
         }
 
     }
+
+    echo '</div>';
 }
