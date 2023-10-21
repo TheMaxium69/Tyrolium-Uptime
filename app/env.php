@@ -21,6 +21,8 @@ if ($APP_ENV == "DEV"){
 
 } else if ($APP_ENV == "PROD") {
 
+    $dataUrl = 'https://tyrolium.fr/uptime/data.json';
+
 }
 
 // img by : https://www.flaticon.com/fr/chercher?author_id=572&style_id=&type=standard&word=serveur
