@@ -17,7 +17,7 @@ $exemple_server = [
 
 if ($APP_ENV == "DEV"){
 
-    $dataUrl = 'http://127.0.0.1/Tyrolium-SolidServ-Uptime-Site/data.json';
+    $dataUrl = 'http://127.0.0.1/Tyrolium-Uptime/data.json';
 
 } else if ($APP_ENV == "PROD") {
 

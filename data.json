@@ -50,7 +50,7 @@
       "alias": "",
       "description": "Serveur de SolidServ V2",
       "lieu": "Gravelines - France \uD83C\uDDEB\uD83C\uDDF7",
-      "url": "vps204.tyrolium.fr",
+      "url": "vps205.tyrolium.fr",
       "tag": "SolidServ",
       "group": "vps",
       "date":"16/05/2023"
@@ -98,6 +98,17 @@
       "tag": "Tyrolium",
       "group": "int",
       "date":"22/10/23"
+    },
+
+    {
+      "name":"int803",
+      "alias": "server-pl",
+      "description": "Serveur de Test Interne à Tyrolium",
+      "lieu": "Blainville - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "int803.tyrolium.fr",
+      "tag": "Tyrolium",
+      "group": "int",
+      "date":"24/10/23"
     },
 
 
