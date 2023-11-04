@@ -57,6 +57,17 @@
     },
 
     {
+      "name":"vps206",
+      "alias": "",
+      "description": "Serveur pour les formation",
+      "lieu": "Gravelines - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps206.tyrolium.fr",
+      "tag": "",
+      "group": "vps",
+      "date":"04/11/2023"
+    },
+
+    {
       "name":"serv301",
       "alias": "ionos-serv",
       "description": "Serveur de Test Interne à SolidServ",
