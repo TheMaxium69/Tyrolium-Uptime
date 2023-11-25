@@ -122,6 +122,17 @@
       "date":"24/10/23"
     },
 
+    {
+      "name":"int804",
+      "alias": "",
+      "description": "Serveur de SolidServ V2",
+      "lieu": "Décines-Charpieu - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "int804.tyrolium.fr",
+      "tag": "SolidServ",
+      "group": "int",
+      "date":"24/11/23"
+    },
+
 
 
 
