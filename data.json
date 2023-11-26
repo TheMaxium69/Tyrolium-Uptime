@@ -168,6 +168,16 @@
       "group": "proxy",
       "date":"04/02/2020"
     },
+    {
+      "name":"proxy602",
+      "alias": "",
+      "description": "Proxy de redirection des vps interne",
+      "lieu": "Lyon - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "proxy602.tyrolium.fr",
+      "tag": "Tyrolium",
+      "group": "proxy",
+      "date":"26/11/2023"
+    },
 
     {
       "name":"vpn401",
