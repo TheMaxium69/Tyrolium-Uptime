@@ -360,7 +360,7 @@
       "description": "VPN de connexion à l'intranet de Tyrolium",
       "lieu": "Décines-Charpieu - France \uD83C\uDDEB\uD83C\uDDF7",
       "url": "vps290.tyrolium.fr",
-      "tag": "",
+      "tag": "tyrolium",
       "group": "vpn",
       "date":"18/11/2023"
     },
