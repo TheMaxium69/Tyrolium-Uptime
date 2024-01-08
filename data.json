@@ -68,6 +68,150 @@
     },
 
     {
+      "name":"vps211",
+      "alias": "",
+      "description": "Serveur de com de Tyrolium",
+      "lieu": "Décines-Charpieu - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps211.tyrolium.fr",
+      "tag": "tyrolium",
+      "group": "vps",
+      "date":"18/11/2023"
+    },
+
+    {
+      "name":"vps212",
+      "alias": "",
+      "description": "Serveur de client (10564)",
+      "lieu": "Décines-Charpieu - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps212.tyrolium.fr",
+      "tag": "",
+      "group": "vps",
+      "date":"20/11/2023"
+    },
+
+    {
+      "name":"vps213",
+      "alias": "",
+      "description": "Serveur pour les formations",
+      "lieu": "Décines-Charpieu - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps213.tyrolium.fr",
+      "tag": "",
+      "group": "vps",
+      "date":"18/11/2023"
+    },
+
+    {
+      "name":"vps214",
+      "alias": "",
+      "description": "Serveur pour TyroServ S2.5",
+      "lieu": "Décines-Charpieu - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps214.tyrolium.fr",
+      "tag": "tyroserv",
+      "group": "vps",
+      "date":"18/11/2023"
+    },
+
+    {
+      "name":"vps215",
+      "alias": "",
+      "description": "Serveur pour le site de SolidServ",
+      "lieu": "Décines-Charpieu - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps215.tyrolium.fr",
+      "tag": "solidserv",
+      "group": "vps",
+      "date":"SOON"
+    },
+
+    {
+      "name":"vps216",
+      "alias": "",
+      "description": "Serveur pour Gamenium",
+      "lieu": "Décines-Charpieu - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps216.tyrolium.fr",
+      "tag": "gamenium",
+      "group": "vps",
+      "date":"SOON"
+    },
+
+    {
+      "name":"vps217",
+      "alias": "",
+      "description": "Serveur pour NexiumiaCRM",
+      "lieu": "Décines-Charpieu - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps217.tyrolium.fr",
+      "tag": "nexiumiacrm",
+      "group": "vps",
+      "date":"SOON"
+    },
+
+    {
+      "name":"vps218",
+      "alias": "",
+      "description": "Serveur pour les serveur Pterodactyl",
+      "lieu": "Décines-Charpieu - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps218.tyrolium.fr",
+      "tag": "solidserv",
+      "group": "vps",
+      "date":"SOON"
+    },
+
+    {
+      "name":"vps219",
+      "alias": "",
+      "description": "Serveur de client (10565)",
+      "lieu": "Décines-Charpieu - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps219.tyrolium.fr",
+      "tag": "",
+      "group": "vps",
+      "date":"25/11/2023"
+    },
+    {
+      "name":"vps220",
+      "alias": "",
+      "description": "Serveur de client (10566)",
+      "lieu": "Décines-Charpieu - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps220.tyrolium.fr",
+      "tag": "",
+      "group": "vps",
+      "date":"25/11/2023"
+    },
+
+    {
+      "name":"vps221",
+      "alias": "",
+      "description": "Serveur de client (10567)",
+      "lieu": "Décines-Charpieu - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps221.tyrolium.fr",
+      "tag": "",
+      "group": "vps",
+      "date":"02/12/2023"
+    },
+
+    {
+      "name":"vps222",
+      "alias": "",
+      "description": "Serveur de client (10568)",
+      "lieu": "Décines-Charpieu - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps222.tyrolium.fr",
+      "tag": "",
+      "group": "vps",
+      "date":"21/12/2023"
+    },
+
+    {
+      "name":"vps290",
+      "alias": "",
+      "description": "Serveur de redirection de paquet",
+      "lieu": "Décines-Charpieu - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps290.tyrolium.fr",
+      "tag": "tyrolium",
+      "group": "vps",
+      "date":"18/11/2023"
+    },
+
+
+
+    {
       "name":"serv301",
       "alias": "ionos-serv",
       "description": "Serveur de Test Interne à SolidServ",
@@ -211,6 +355,17 @@
     },
 
     {
+      "name":"vpn404",
+      "alias": "",
+      "description": "VPN de connexion à l'intranet de Tyrolium",
+      "lieu": "Décines-Charpieu - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps290.tyrolium.fr",
+      "tag": "",
+      "group": "vpn",
+      "date":"18/11/2023"
+    },
+
+    {
       "name":"database701",
       "alias": "",
       "description": "Base de donné lier à Tyrolium.fr et Sélémusium.xyz",
@@ -277,12 +432,12 @@
   ],
 
   "group": [
-    {"name": "VPS","prefix": "vps","description":"Il s'agit des vps qui son héberger dans un data center"},
-    {"name": "Serveur dédier","prefix": "serv","description":"Il s'agit des serveur dédier qui son héberger dans un data center"},
     {"name": "Serveur Interne","prefix": "int","description": "Il s'agit des serveur, qui son héberger dans les locaux de Tyrolium"},
+    {"name": "VPS","prefix": "vps","description":"Il s'agit des vps qui son héberger dans un data center"},
     {"name": "Cloud","prefix": "cloud","description":"Il s'agit des serveur conçu pour héberger seulement des site web"},
-    {"name": "DataBase","prefix": "db","description":"Il s'agit des serveur conçu pour héberger seulement des bases de donnée"},
     {"name": "Proxy","prefix": "proxy","description":"Il s'agit des serveurs proxys qui permette de redirigé le trafic vers les backup"},
+    {"name": "Serveur dédier","prefix": "serv","description":"Il s'agit des serveur dédier qui son héberger dans un data center"},
+    {"name": "DataBase","prefix": "db","description":"Il s'agit des serveur conçu pour héberger seulement des bases de donnée"},
     {"name": "VPN","prefix": "vpn","description":"Il s'agit des serveur utilisé pour faire des vpns, souvent utilisé pour notre sécurité"}
   ],
 
@@ -298,7 +453,8 @@
     {"name": "useritium.fr", "createDate": "05/06/2022"},
     {"name": "gamenium.fr", "createDate": "06/06/2022"},
     {"name": "influnias.fr", "createDate": "19/10/2022"},
-    {"name": "maximetournier.fr", "createDate": "15/08/2023"}
+    {"name": "maximetournier.fr", "createDate": "15/08/2023"},
+    {"name": "vturias.fr", "createDate": "17/11/2023"}
 
   ]
 
