@@ -92,10 +92,10 @@
     {
       "name":"vps213",
       "alias": "",
-      "description": "Serveur pour les formations",
+      "description": "Serveur pour le site de TyroStudio",
       "lieu": "Décines-Charpieu - France \uD83C\uDDEB\uD83C\uDDF7",
       "url": "vps213.tyrolium.fr",
-      "tag": "",
+      "tag": "tyrostudio",
       "group": "vps",
       "date":"18/11/2023"
     },
@@ -454,7 +454,13 @@
     {"name": "gamenium.fr", "createDate": "06/06/2022"},
     {"name": "influnias.fr", "createDate": "19/10/2022"},
     {"name": "maximetournier.fr", "createDate": "15/08/2023"},
-    {"name": "vturias.fr", "createDate": "17/11/2023"}
+    {"name": "vturias.fr", "createDate": "17/11/2023"},
+    {"name": "tyrostudio.fr", "createDate": "05/03/2024"},
+    {"name": "tyro.studio", "createDate": "05/03/2024"},
+    {"name": "tyrolium.org", "createDate": "05/03/2024"},
+    {"name": "tyrolium.net", "createDate": "05/03/2024"},
+    {"name": "tyrolium.eu", "createDate": "05/03/2024"},
+    {"name": "tyrolium.de", "createDate": "05/03/2024"}
 
   ]
 
