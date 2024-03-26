@@ -68,6 +68,17 @@
     },
 
     {
+      "name":"vps207",
+      "alias": "",
+      "description": "Serveur Officiel de la S3 de TyroServ",
+      "lieu": "Gravelines - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps207.tyrolium.fr",
+      "tag": "TyroServ",
+      "group": "vps",
+      "date":"26/03/2024"
+    },
+
+    {
       "name":"vps211",
       "alias": "",
       "description": "Serveur de com de Tyrolium",
