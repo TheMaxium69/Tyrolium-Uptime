@@ -79,6 +79,17 @@
     },
 
     {
+      "name":"vps208",
+      "alias": "",
+      "description": "Serveur pour les préstations d'événements Minecraft",
+      "lieu": "Strasbourg - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps208.tyrolium.fr",
+      "tag": "Tyrolium",
+      "group": "vps",
+      "date":"14/06/2024"
+    },
+
+    {
       "name":"vps211",
       "alias": "",
       "description": "Serveur de com de Tyrolium",
