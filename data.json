@@ -388,6 +388,17 @@
     },
 
     {
+      "name":"vpn405",
+      "alias": "",
+      "description": "VPN de connexion à l'intranet de Tyrolium",
+      "lieu": "Décines-Charpieu - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "int804.tyrolium.fr",
+      "tag": "tyrolium",
+      "group": "vpn",
+      "date":"25/08/2024"
+    },
+
+    {
       "name":"database701",
       "alias": "",
       "description": "Base de donné lier à Tyrolium.fr et Sélémusium.xyz",
