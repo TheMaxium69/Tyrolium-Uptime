@@ -90,6 +90,17 @@
     },
 
     {
+      "name":"vps209",
+      "alias": "",
+      "description": "Serveur pour Gamenium Bêta Fermé",
+      "lieu": "Francfort - Allemagne \uD83C\uDDE9\uD83C\uDDEA",
+      "url": "gamenium.fr",
+      "tag": "Gamenium",
+      "group": "vps",
+      "date":"21/12/2024"
+    },
+
+    {
       "name":"vps211",
       "alias": "",
       "description": "Serveur de com de Tyrolium",
@@ -218,6 +229,37 @@
       "tag": "",
       "group": "vps",
       "date":"21/12/2023"
+    },
+
+    {
+      "name":"vps240",
+      "alias": "",
+      "description": "Serveur pour TyroServ",
+      "lieu": " Gravelines - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps240.tyrolium.fr",
+      "tag": "tyroserv",
+      "group": "vps",
+      "date":"10/01/2025"
+    },
+    {
+      "name":"vps241",
+      "alias": "",
+      "description": "Serveur de client (10569)",
+      "lieu": "Francfort - Allemagne \uD83C\uDDE9\uD83C\uDDEA",
+      "url": "vps241.tyrolium.fr",
+      "tag": "",
+      "group": "vps",
+      "date":"22/01/2025"
+    },
+    {
+      "name":"vps242",
+      "alias": "",
+      "description": "Serveur de client (10570)",
+      "lieu": "Francfort - Allemagne \uD83C\uDDE9\uD83C\uDDEA",
+      "url": "vps242.tyrolium.fr",
+      "tag": "",
+      "group": "vps",
+      "date":"22/01/2025"
     },
 
     {
