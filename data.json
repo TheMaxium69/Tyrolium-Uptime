@@ -237,7 +237,7 @@
       "description": "Serveur pour TyroServ",
       "lieu": " Gravelines - France \uD83C\uDDEB\uD83C\uDDF7",
       "url": "vps240.tyrolium.fr",
-      "tag": "tyroserv",
+      "tag": "TyroServ",
       "group": "vps",
       "date":"10/01/2025"
     },
@@ -260,6 +260,36 @@
       "tag": "",
       "group": "vps",
       "date":"22/01/2025"
+    },
+    {
+      "name":"vps243",
+      "alias": "",
+      "description": "Serveur de client (10571)",
+      "lieu": "Strasbourg - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps243.tyrolium.fr",
+      "tag": "",
+      "group": "vps",
+      "date":"05/02/2025"
+    },
+    {
+      "name":"vps244",
+      "alias": "",
+      "description": "Serveur de client (10572)",
+      "lieu": "Strasbourg - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps244.tyrolium.fr",
+      "tag": "",
+      "group": "vps",
+      "date":"04/03/2025"
+    },
+    {
+      "name":"vps245",
+      "alias": "",
+      "description": "Serveur de client (10573)",
+      "lieu": "Strasbourg - France \uD83C\uDDEB\uD83C\uDDF7",
+      "url": "vps245.tyrolium.fr",
+      "tag": "",
+      "group": "vps",
+      "date":"10/03/2025"
     },
 
     {
@@ -424,7 +454,7 @@
       "description": "VPN de connexion à l'intranet de Tyrolium",
       "lieu": "Décines-Charpieu - France \uD83C\uDDEB\uD83C\uDDF7",
       "url": "vps290.tyrolium.fr",
-      "tag": "tyrolium",
+      "tag": "Tyrolium",
       "group": "vpn",
       "date":"18/11/2023"
     },
@@ -435,7 +465,7 @@
       "description": "VPN de connexion à l'intranet de Tyrolium",
       "lieu": "Décines-Charpieu - France \uD83C\uDDEB\uD83C\uDDF7",
       "url": "int804.tyrolium.fr",
-      "tag": "tyrolium",
+      "tag": "Tyrolium",
       "group": "vpn",
       "date":"25/08/2024"
     },
@@ -507,13 +537,13 @@
   ],
 
   "group": [
-    {"name": "Serveur Interne","prefix": "int","description": "Il s'agit des serveur, qui son héberger dans les locaux de Tyrolium"},
-    {"name": "VPS","prefix": "vps","description":"Il s'agit des vps qui son héberger dans un data center"},
-    {"name": "Cloud","prefix": "cloud","description":"Il s'agit des serveur conçu pour héberger seulement des site web"},
-    {"name": "Proxy","prefix": "proxy","description":"Il s'agit des serveurs proxys qui permette de redirigé le trafic vers les backup"},
-    {"name": "Serveur dédier","prefix": "serv","description":"Il s'agit des serveur dédier qui son héberger dans un data center"},
-    {"name": "DataBase","prefix": "db","description":"Il s'agit des serveur conçu pour héberger seulement des bases de donnée"},
-    {"name": "VPN","prefix": "vpn","description":"Il s'agit des serveur utilisé pour faire des vpns, souvent utilisé pour notre sécurité"}
+    {"name": "Serveur Interne", "prefix": "int", "description": "Il s'agit des serveurs hébergés dans les locaux de Tyrolium."},
+    {"name": "VPS", "prefix": "vps", "description": "Il s'agit de VPS hébergés dans un data center."},
+    {"name": "Cloud", "prefix": "cloud", "description": "Il s'agit de serveurs conçus pour héberger exclusivement des sites web."},
+    {"name": "Proxy", "prefix": "proxy", "description": "Il s'agit de serveurs proxy qui permettent de rediriger le trafic vers les sauvegardes."},
+    {"name": "Serveur dédié", "prefix": "serv", "description": "Il s'agit de serveurs dédiés hébergés dans un data center."},
+    {"name": "Base de données", "prefix": "db", "description": "Il s'agit de serveurs conçus pour héberger exclusivement des bases de données."},
+    {"name": "VPN", "prefix": "vpn", "description": "Il s'agit de serveurs utilisés pour les VPN, souvent pour notre sécurité."}
   ],
 
   "domaine": [
